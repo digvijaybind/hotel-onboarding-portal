@@ -1,0 +1,16 @@
+/* Container styling for pagination component */
+.Container {
+  position: fixed; /* Fixes container to bottom */
+  bottom: 0; /* Aligns to the bottom of the viewport */
+  left: 200px; /* Offsets from the left edge */
+  width: calc(100vw - 200px); /* Adjusts width considering the offset */
+  background-color: white; /* Sets background color */
+}
+
+/* Responsive styling for small screens */
+@media screen and (max-width: 639px) {
+  .Container {
+    width: 100vw; /* Full viewport width */
+    left: 0; /* No left offset on small screens */
+  }
+}

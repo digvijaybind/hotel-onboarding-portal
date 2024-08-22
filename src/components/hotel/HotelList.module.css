@@ -1,0 +1,8 @@
+.Button {
+  border-radius: 4px;
+  background: linear-gradient(180deg, #40d1f0 6.56%, #cbcbcb 100%);
+  box-shadow:
+    0 1px 1px rgba(64, 209, 240, 0.14) inset,
+    0 1px 0 #40d1f0 inset;
+  backdrop-filter: blur(0px);
+}

@@ -1,0 +1,13 @@
+.Top_container {
+  width: calc(100vw - 200px);
+  position: fixed;
+  top: 0;
+  left: 200px;
+  z-index: 200;
+}
+@media screen and (max-width: 639px) {
+  .Top_container {
+    left: 0;
+    width: 100vw;
+  }
+}
